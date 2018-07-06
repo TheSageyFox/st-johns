@@ -18,13 +18,16 @@ header h2{
 	font-variant: small-caps;
 	text-align: right;
 }
-header img{
+#logo{
 	width: 18%;
 	display: inline-block;
 	float: left;
 }
 
-main img{
+#sketch{
 	width: 100%;
+}
 
+#giss{
+	width: 98%;
 }
