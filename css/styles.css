@@ -18,6 +18,19 @@ header h2{
 	font-variant: small-caps;
 	text-align: right;
 }
+#menu-button{
+	float:left;
+	margin-left: 2.8%;
+	padding: 2%;
+	border-radius: 5px;
+	border: 2px #007ea9 solid;
+}
+#mobile-nav{
+	display:none;
+}
+#display-nav{
+	display: inline-block;
+}
 #logo{
 	width: 18%;
 	display: inline-block;

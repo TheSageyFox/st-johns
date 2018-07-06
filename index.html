@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title> St. Johns Richmond - United Church of Christ </title>
 		<link rel="stylesheet" href="css/styles.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 	</head>
 
@@ -12,10 +13,24 @@
 		<header>
 			<img id="logo" src="img/UCC-logo.png" alt="United Church of Christ's logo">
 			<h1> St. John's Richmond</h1>
-			<h2> United Church of Christ</h2>
+			<button id="menu-button" class="closed"> Menu </button>
+			<h2> United Church of Christ</h2>	
 			<img id="sketch" src="img/st-johns.png" alt="St. John's sketch">
 		</header>
 		<main>
+			<section id="mobile-nav" class="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">Our Staff</a></li>
+					<li><a href="#">Community Players</a></li>
+					<li><a href="#">UCC.org</a></li>
+					<li><a href="#">Online Calendar</a></li>
+					<li><a href="#">Ceremony</a></li>
+					<li><a href="#">Wedding</a></li>
+					<li><a href="#">Our Blog</a></li>
+					<li><a href="#">Photo Gallery</a></li>
+				</ul>
+			</section>
 			<section id="welcome">
 				<img id="giss" src="img/UCC-Logo-giss.jpg" alt="God is Still Speaking at the UCC">
 				<p>No matter who you are, or where you are on life's journey. You are welcome here at the United Church of Christ. </p>
@@ -53,5 +68,7 @@
 				<a href="mailto:office@stjohnsrichmond.org"><i class="far fa-envelope"></i></a>
 			</section>
 		</footer>
+		    <script src="js/script.js"></script>
+
 	</body>
 </html>
