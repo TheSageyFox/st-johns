@@ -43,3 +43,25 @@ header h2{
 	text-align: center;
 	font-variant: small-caps;
 }
+.tabs .fas{
+	font-size: 2em;
+}
+footer{
+	margin: 2%;
+	border-top: 4px double #000000;
+}
+#footer-info{
+	font: .20em;
+	text-align: center;
+	font-variant: small-caps;
+}
+#footer-nav{
+	font: 2em;
+	padding: 2% 10%;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+#footer-nav a{
+	text-decoration: none;
+}
