@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Regencie;
+    src: url(../fonts/RegencieLight.ttf);
+}
+header{
+	width: 98%;
+}
+header h1{
+	font size: 3.75em;
+	font-family: Regencie;
+	font-weight: bolder;
+	text-align: right;
+}
+header h2{
+	margin-top: -10px;
+	font size: 3em;
+	font-family: Regencie;
+	font-variant: small-caps;
+	text-align: right;
+}
+header img{
+	width: 18%;
+	display: inline-block;
+	float: left;
+}
+
+main img{
+	width: 100%;
+
+}
