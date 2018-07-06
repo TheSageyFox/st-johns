@@ -31,3 +31,15 @@ header h2{
 #giss{
 	width: 98%;
 }
+#tab-container{
+	display: flex;
+	justify-content: space-around;
+}
+.tabs{
+	padding-top: 10px;
+	width: 30%;
+	border: 1px solid #000000;
+	border-radius: 25px;
+	text-align: center;
+	font-variant: small-caps;
+}
