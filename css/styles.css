@@ -18,6 +18,7 @@ header h2{
 	font-variant: small-caps;
 	text-align: right;
 }
+
 #menu-button{
 	float:left;
 	margin-left: 2.8%;
@@ -29,12 +30,28 @@ header h2{
 	display:none;
 	position: absolute;
 	background-color: #ffffff;
-	width: 80%;
+	width: 92.5%;
 	border: 3px #007ea9 solid;
 	border-radius: 25px;
+	z-index: 2;
+}
+#mobile-nav a, #mobile-nav ul, #mobile-nav li{
+	color: #000000;
+	text-decoration:none;
+	list-style:none;
+}
+#fa-plus-square{
+	font-size: 1em;
+	color: #000000;
 }
 #display-nav{
 	display: inline-block;
+}
+#sub-nav-dd{
+	
+}
+.sub-nav{
+	display:none;
 }
 #logo{
 	width: 18%;
