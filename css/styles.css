@@ -109,3 +109,23 @@ footer a{
 	display: flex;
 	justify-content: space-between;
 }
+@media screen and (min-width: 389px) and (max-width: 679px){
+	header h1{
+		font-size: 3.5em;
+	}
+	#logo{
+		width: 20%;
+	}
+}
+@media screen and (min-width:680px){
+	#menu-button{
+		display:none;
+	}
+	#mobile-nav{
+		display:inline-block;
+		width: 96%;
+		position: relative;
+	}
+
+
+}
